@@ -1,0 +1,9 @@
+.form-container{
+    margin: 20px auto;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.form-container .form-data{
+    margin: 5px auto;
+}
