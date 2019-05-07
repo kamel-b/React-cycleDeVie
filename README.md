@@ -2,6 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Netlifly link : 
+
+https://agitated-borg-b2f4d3.netlify.com/
+
 In the project directory, you can run:
 
 ### `npm start`
