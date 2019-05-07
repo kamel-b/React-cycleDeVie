@@ -40,15 +40,17 @@ class Form extends Component {
         return(
             <div className="form-container">
                 <h1>{this.state.globalTitle}</h1>
-               <form onSubmit={this.handleSubmit}>
-                   <div className="form-data">
-                    <label htmlFor="title">Title</label>
-                    <input type="text" id="title" name="title" onChange={this.handleChange} />
-                </div>
 
-                <div className="form-data">
-                    <input type="submit" value="Envoyer"/>
-                </div>
+               <form onSubmit={this.handleSubmit}>
+
+                   <div className="form-data">
+                        <label htmlFor="title">Title</label>
+                        <input type="text" id="title" name="title" onChange={this.handleChange} />
+                   </div>
+
+                    <div className="form-data">
+                        <input type="submit" value="Envoyer"/>
+                    </div>
                </form>
                 
             </div>
